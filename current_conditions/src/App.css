@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+input#submit{
+  background:none;
+  border:none;
+  font-size:1em;
+  color:blue;
+}
+.mybutton {
+  border: none;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-family: 'Roboto Mono';
+}
+.marker {
+  background-image: url('https://cdn0.iconfinder.com/data/icons/hand-conversation/91/Hand_17-512.png');
+  background-size: cover; 
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer; 
+}
+
+.navcontainer {
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  color: white;
+  background-color: #f8cb76;
+  text-decoration: none;
+}
+
+.navcontainer a {
+  font-family: 'Heebo', sans-serif;
+  text-decoration:none;
+  color: #4083c1;
+}
+
+.nav:hover {
+  border-bottom: solid 2px #4083c1;  
+}
+.slider-text {
+  font-family: 'Heebo', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+.slider {
+  position: relative;
+  text-align: left;
+  top: 2%;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.second-slider {
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);    
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  background-image: url('https://cdn0.iconfinder.com/data/icons/hand-conversation/91/Hand_17-512.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.backgroundimage {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  background-image: url('https://d3n32ilufxuvd1.cloudfront.net/56f1bc76fd71ff8b66c3eca9/1036092/upload-e7be7ba0-4446-11e8-bc5e-65bbe6a92450.jpg');
+  /* background-image: url('https://cdn.surfer.com/uploads/2014/04/54.6-DAY-1280x1024.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+.t-font {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 14px;
+  color: #1c1c1c;
+  padding: 1px 2px;
+
+}
+.spotmarker {
+  background-color: white;
+  width: 300px;
+}
+
+.fonts {
+  font-family: 'Heebo', sans-serif;
+  font-size: 12px;
+  color: #1c1c1c;
+  background-color: white;
+  padding: 1px 2px;
+}
+#h2font {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
+  color: black;
+  padding: 3px 2px;
+}
+#h3font {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  padding: 3px 2px;
+}
+.h-font {
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
+  color: #1c1c1c;
+  padding: 1px 2px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.rat {
+  width: 100%;
+}
+.flat {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  background-color: slategray;
+  padding: 1px 2px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.verypoor {
+  font-family: 'Heebo';
+  color: white;
+  background-color: #5f211e;
+  padding: 1px 2px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.poor {
+  align-items: center;
+  font-family: 'Heebo';
+  color: white;
+  width: 300px;
+  background-color: #5f211e;
+  padding: 1px 2px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.fair {
+  font-family: 'Heebo';
+  color: white;
+  background-color: #182d72;
+  padding: 1px 2px;
+  border: 1px solid rgba(0,0,0,.125);
+
+}
+.good {
+  font-family: 'Heebo';
+  color: white;
+  width: 300px;
+  background-color: #295332;
+  padding: 1px 2px;
+  border: 1px solid rgba(0,0,0,.125);
+}
