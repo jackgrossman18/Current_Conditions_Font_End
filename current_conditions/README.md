@@ -5,6 +5,7 @@
 ### Layout
 
 Just click on an icon on the map and you will receive the most current wave rating from both Surfline and MagicSeaWeed.
+![Map Overview](https://user-images.githubusercontent.com/25868208/43859490-bef3ab12-9b1e-11e8-99e1-629765ee8e4c.png)
 
 ### Purpose
 
